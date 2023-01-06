@@ -11,6 +11,7 @@ import globalStyles from "./GlobalStyles/index.module.css";
 const App = () => {
   return (
     <div>
+      <h1>Bla Bla</h1>
       <Nav />
       <div className={globalStyles.appWrapper}>
         <Routes>
