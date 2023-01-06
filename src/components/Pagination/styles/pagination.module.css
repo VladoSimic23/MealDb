@@ -1,0 +1,36 @@
+.pagination {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-family: inherit;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination button:hover {
+  background: rgba(0, 0, 255, 0.615);
+}
+
+.pagination button:active {
+  color: red;
+}
+
+.active {
+  background: green !important;
+  border-color: green !important;
+}
+/*# sourceMappingURL=pagination.module.css.map */

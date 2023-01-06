@@ -1,0 +1,49 @@
+.form {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    input {
+        font-family: inherit;
+        padding: 8px;
+        font-size: 16px;
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+    button {
+        cursor: pointer;
+        font-family: inherit;
+        padding: 10px 20px;
+        margin-left: 15px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background: blue;
+        color: white;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+            background: rgba(0, 0, 255, 0.615);
+        }
+    }
+}
+.mealListWrapper{
+    margin-top: 80px;
+    transition: all 0.2s linear;
+    img {
+        max-width: 70%;
+    }
+}
+
+.mealListItem {
+    cursor: pointer;
+    text-align: center;
+    
+    a {
+        color: black;
+    }
+    img {
+        transition: all 0.4s linear;
+        border-radius: 50%;
+        &:hover {
+            border-radius: 0;
+        }
+    }
+}

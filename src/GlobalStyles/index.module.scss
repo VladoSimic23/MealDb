@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #ff6f00;
+    h2 {
+        color: #17477d;
+    }
+}
+ul {
+    li {
+        list-style: none;
+    }
+}
+h1,h2,h3,h4 {
+    margin: 25px 0;
+}
+p {
+    margin: 10px 0;
+}
+
+.appWrapper {
+    margin-top: 80px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.grid2,.grid3,.grid4,.grid5 {
+    display: grid;
+    grid-gap: 30px;
+}
+.grid2 {
+    grid-template-columns:  1fr 1fr;
+}
+.grid3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navigate {
+    display: flex;
+    justify-content: flex-end;
+}
+.navigateBtn {
+    cursor: pointer;
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-family: inherit;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background: blue;
+        color: white;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+            background: rgba(0, 0, 255, 0.615);
+        }
+        &:active {
+            color: red;
+        }
+}
+
+@media only screen and (max-width: 992px) {
+    .grid4 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .grid3 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .grid4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1,h2,h3 {
+        text-align: center;
+    }
+    .grid1,.grid2,.grid3,.grid4 {
+        text-align: center;
+        img {
+            max-width: 50%;
+        }
+    }
+    .grid4 {
+        div {
+            a {
+                img {max-width: 40%;}
+            }
+        }
+    }
+    .grid4 {
+        grid-template-columns: 1fr;
+    }
+    .grid3 {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+
+}

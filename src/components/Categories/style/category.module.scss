@@ -1,0 +1,81 @@
+.categoryItem {
+    background-color: #6c6eec !important;
+    text-align: center;
+    cursor: pointer;
+   
+    a {
+        margin: 0;
+        text-decoration: none;
+        h2 {
+            margin: 0;
+            color: white;
+            padding: 15px 0;
+        }
+    }
+    &:hover {
+        background: rgb(71, 104, 194) !important;
+    }
+}
+.mealDetailWrap {
+    h1,h2 {
+        padding-bottom: 10px;
+        text-align: center;
+        border-bottom: 2px solid rgb(255, 111, 0);
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 80px;
+    }
+    img {
+        max-width: 85%;
+    }
+}
+.ingredients {
+    margin: 0 auto;
+   margin-top: 40%;
+   transform: translateY(-50%);
+   h3 {
+    border-bottom: 2px solid rgb(255, 111, 0);
+    padding-bottom: 10px;
+   }
+   div {
+    ul {
+        li {
+            padding: 3px 0;
+        }
+    }
+   }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .categoryItem {
+        a {
+            h2 {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .categoryItem {
+        a {
+            h2 {
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .categoryItem {
+        a {
+            h2 {
+                margin: 20px 0;
+            }
+        }
+    }
+}

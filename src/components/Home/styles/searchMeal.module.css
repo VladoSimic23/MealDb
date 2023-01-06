@@ -1,0 +1,64 @@
+.form {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form input {
+  font-family: inherit;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.form button {
+  cursor: pointer;
+  font-family: inherit;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.form button:hover {
+  background: rgba(0, 0, 255, 0.615);
+}
+
+.mealListWrapper {
+  margin-top: 80px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.mealListWrapper img {
+  max-width: 70%;
+}
+
+.mealListItem {
+  cursor: pointer;
+  text-align: center;
+}
+
+.mealListItem a {
+  color: black;
+}
+
+.mealListItem img {
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  border-radius: 50%;
+}
+
+.mealListItem img:hover {
+  border-radius: 0;
+}
+/*# sourceMappingURL=searchMeal.module.css.map */

@@ -1,0 +1,22 @@
+.nav {
+    background: rgba(233, 233, 233, 0.524);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   ul {
+    display: flex;
+    justify-content: center;
+    li {
+        font-size: 20px;
+        margin: 0 20px;
+        font-weight: bold;
+        a {
+            color: black;
+        }
+    }
+   }
+}
+.active {
+    color: #ff6f00 !important;
+}

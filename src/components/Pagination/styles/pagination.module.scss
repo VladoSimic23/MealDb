@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+   button {
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-family: inherit;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background: blue;
+        color: white;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+            background: rgba(0, 0, 255, 0.615);
+        }
+        &:active {
+            color: red;
+        }
+    }
+}
+
+.active {
+    background: green !important;
+    border-color: green !important;
+}
