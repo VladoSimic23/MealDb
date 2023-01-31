@@ -22,6 +22,13 @@ export const mainReducer = (
         loading: boolean;
       } = payload;
 
+       if (!meals) {
+        return {
+          ...state,
+          searchMeal: { meals: [], loading: false, error: "" },
+        };
+      }
+      
       if (error) {
         const setError = { ...state.searchMeal, error: error };
 
