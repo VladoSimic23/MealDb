@@ -111,6 +111,9 @@ p {
   h1 {
     font-size: 26px;
   }
+   h2 {
+    font-size: 22px;
+  }
   .grid3 {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
