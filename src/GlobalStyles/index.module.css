@@ -108,6 +108,9 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
   .grid3 {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
