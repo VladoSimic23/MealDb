@@ -22,7 +22,7 @@ const SearchedMealList = () => {
   if (error) {
     return <h1>{error}</h1>;
   }
-  if (!meals) {
+  if (meals.length < 1) {
     return <h1>No results</h1>;
   }
 
