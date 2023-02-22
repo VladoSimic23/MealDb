@@ -19,4 +19,4 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 
 npm run build - to build
 
-npm start - to start the serve
+npm start - to start the server
