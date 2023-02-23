@@ -10,6 +10,12 @@ Create React App (CRA) is a tool developed by Facebook that helps you quickly se
 ## Typescript
 TypeScript is a superset of JavaScript that adds optional static type checking and other features to improve the development experience, catch errors earlier, and make code more scalable and maintainable. It compiles down to plain JavaScript, allowing developers to use it in any environment that supports JavaScript
 
+### Context APi and useReducer
+
+React Context API is a feature in React that allows data to be passed down through the component tree without having to manually pass props. It's used to manage state that needs to be shared across components.
+
+useReducer is a React hook that provides an alternative to useState for managing state in a more complex or scalable way. It accepts a reducer function and an initial state, and returns an array containing the current state and a dispatch function to update it.
+
 ### To clone a repository from GitHub, follow these steps:
 
     1.Copy the HTTPS or SSH link to the repository.
