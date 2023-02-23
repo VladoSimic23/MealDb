@@ -1,5 +1,5 @@
 # About
-This project is built with the React [Create React App](https://reactjs.org/docs/create-a-new-react-app.html), [Typescript](https://www.typescriptlang.org/), hooks (contextAPI, useReducer) and [Scss](https://sass-lang.com/)
+This project is built with the React [Create React App](https://reactjs.org/docs/create-a-new-react-app.html), [Typescript](https://www.typescriptlang.org/), hooks ([contextAPI](https://reactjs.org/docs/context.html), [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)) and [Scss](https://sass-lang.com/)
 
 ## Site URL
 https://vsimic-mealsdb.netlify.app/
