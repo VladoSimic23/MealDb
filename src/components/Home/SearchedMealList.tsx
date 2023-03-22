@@ -34,7 +34,7 @@ const SearchedMealList = () => {
           return (
             <div key={idMeal} className={styles.mealListItem}>
               <Link to={`meal-detail/${idMeal}`}>
-                <img src={strMealThumb} alt={strMeal} />
+                <img width="185" height="185" src={strMealThumb} alt={strMeal} />
                 <h2>{strMeal}</h2>
               </Link>
             </div>
