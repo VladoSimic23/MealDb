@@ -39,7 +39,7 @@ const FilterByCategory = () => {
             <div key={idMeal}>
               <Link to={`../../meal-detail/${idMeal}`}>
                 <div>
-                  <img width="263" height="263" src={strMealThumb} alt={strMeal} />
+                  <img src={strMealThumb} alt={strMeal} />
                   <h3>{strMeal}</h3>
                 </div>
               </Link>
