@@ -54,7 +54,7 @@ const MealDetaisByCategory = () => {
         <h1>{strMeal}</h1>
         <div className={globalStyles.grid2}>
           <div>
-            <img width="472px" height="472px" src={strMealThumb} alt={strMeal} />
+            <img src={strMealThumb} alt={strMeal} />
 
             <Link to={`/category/${strCategory}`}>
               <h4>Category: {strCategory}</h4>
